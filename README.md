@@ -9,7 +9,7 @@
 
 ## Task Description
 
-This paper identies media bias at sentence level. Specifically, the model takes a whole news article consisting of N sentences as input, and outputs the prediction for each sentence whether it contains bias or not.
+This paper identifies media bias at sentence level. Specifically, the model takes a whole news article consisting of N sentences as input, and outputs the prediction for each sentence whether it contains bias or not.
 
 <br/>
 
@@ -36,10 +36,10 @@ We release the code for training the event relation graph algorithm and construc
 
 ## Bias Sentences Identification
 
-We release the code for incorporating the event relation graph into sentence-level media bias identification as an extra guidance:
+We release the code for identifying sentence-level media bias, by incorporating the event relation graph as an extra guidance:
 
-* **bias_event_relation_graph_BASIL.py:** the code for sentence-level media bias identification on BASIL dataset
-* **bias_event_relation_graph_BiasedSents.py:** the code for sentence-level media bias identification on BiasedSents dataset
+* **bias_event_relation_graph_BASIL.py:** the code for identifying sentence-level media bias on BASIL dataset
+* **bias_event_relation_graph_BiasedSents.py:** the code for identifying sentence-level media bias on BiasedSents dataset
 
 
 <br/>
