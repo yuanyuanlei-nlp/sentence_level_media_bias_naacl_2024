@@ -29,7 +29,7 @@ We release the code for training the event relation graph algorithm and construc
 
 * **Dataset:** We used MAVEN-ERE dataset for training the event relation graph (https://github.com/THU-KEG/MAVEN-ERE)
 * **mavenere_event_relation_label.py:** the code for processing the event relations labels in MAVEN-ERE dataset
-* **event_relation_graph.py:** the code for training the event relation graph algorithm
+* **training_event_relation_graph.py:** the code for training the event relation graph algorithm
 * **build_event_relation_graph.py:** the code for constructing the event relation graph for a candidate news article
 
 <br/>
