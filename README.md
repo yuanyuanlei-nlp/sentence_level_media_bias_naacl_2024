@@ -3,7 +3,7 @@
 **Paper:** Sentence-level Media Bias Analysis with Event Relation Graph<br/>
 **Accepted:** The 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)<br/>
 **Authors:** Yuanyuan Lei, Ruihong Huang<br/>
-**Paper Link:** paper link coming soon
+**Paper Link:** https://arxiv.org/abs/2404.01722
 
 <br/>
 
@@ -52,7 +52,14 @@ Yuanyuan Lei and Ruihong Huang. 2024. Sentence-level Media Bias Analysis with Ev
 
 
 ```bibtex
-
+@misc{lei2024sentencelevel,
+      title={Sentence-level Media Bias Analysis with Event Relation Graph}, 
+      author={Yuanyuan Lei and Ruihong Huang},
+      year={2024},
+      eprint={2404.01722},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 
