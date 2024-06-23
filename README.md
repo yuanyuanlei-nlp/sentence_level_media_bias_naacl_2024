@@ -3,7 +3,7 @@
 **Paper:** Sentence-level Media Bias Analysis with Event Relation Graph<br/>
 **Accepted:** The 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)<br/>
 **Authors:** Yuanyuan Lei, Ruihong Huang<br/>
-**Paper Link:** https://arxiv.org/abs/2404.01722
+**Paper Link:** https://aclanthology.org/2024.naacl-long.292/
 
 <br/>
 
@@ -48,17 +48,24 @@ We release the code for identifying sentence-level media bias, by incorporating 
 
 If you are going to cite this paper, please use the form:
 
-Yuanyuan Lei and Ruihong Huang. 2024. Sentence-level Media Bias Analysis with Event Relation Graph. In Proceedings of the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), Mexico City, Mexico. Association for Computational Linguistics.
-
+Yuanyuan Lei and Ruihong Huang. 2024. Sentence-level Media Bias Analysis with Event Relation Graph. In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), pages 5225–5238, Mexico City, Mexico. Association for Computational Linguistics.
 
 ```bibtex
-@misc{lei2024sentencelevel,
-      title={Sentence-level Media Bias Analysis with Event Relation Graph}, 
-      author={Yuanyuan Lei and Ruihong Huang},
-      year={2024},
-      eprint={2404.01722},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{lei-huang-2024-sentence,
+    title = "Sentence-level Media Bias Analysis with Event Relation Graph",
+    author = "Lei, Yuanyuan  and
+      Huang, Ruihong",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.292",
+    pages = "5225--5238",
+    abstract = "Media outlets are becoming more partisan and polarized nowadays. In this paper, we identify media bias at the sentence level, and pinpoint bias sentences that intend to sway readers{'} opinions. As bias sentences are often expressed in a neutral and factual way, considering broader context outside a sentence can help reveal the bias. In particular, we observe that events in a bias sentence need to be understood in associations with other events in the document. Therefore, we propose to construct an event relation graph to explicitly reason about event-event relations for sentence-level bias identification. The designed event relation graph consists of events as nodes and four common types of event relations: coreference, temporal, causal, and subevent relations. Then, we incorporate event relation graph for bias sentences identification in two steps: an event-aware language model is built to inject the events and event relations knowledge into the basic language model via soft labels; further, a relation-aware graph attention network is designed to update sentence embedding with events and event relations information based on hard labels. Experiments on two benchmark datasets demonstrate that our approach with the aid of event relation graph improves both precision and recall of bias sentence identification.",
 }
 ```
 
